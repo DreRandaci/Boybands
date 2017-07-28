@@ -16,7 +16,7 @@ var bandElement = document.getElementById("boy-bands");
 // Get a reference to the appropriate DOM element for vegetables
 var veggieElement = document.getElementById("vegetables");
 
-bandElement.innerHTML = '<h1>Boy Bands 4evr</h1>' + '<h1>Also, vegetables?</h1>';
+bandElement.innerHTML = '<h1>Boy Bands 4evr...</h1>' + '<h3>also, vegetables?</h3>';
 
 // Start looping
 for (var loopTracker = 0; loopTracker < loopCount; loopTracker += 1) {
